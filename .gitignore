@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Some unnecessary files ###
+src/Assignments/Assignment1/Printable.pdf
