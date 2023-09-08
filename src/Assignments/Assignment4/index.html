@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="body">
+    <form action="">
+        <div id="header">
+            <h3>
+                Workshop Registration
+            </h3>
+
+            <label for="more-actions"></label>
+            <select name="" id="more-actions">
+                <option>More Actions</option>
+                <option value="save">Save</option>
+            </select>
+        </div>
+
+        <a href="" id="register-link">Register now while Seats available!</a>
+
+        <div id="form-div">
+            <div>
+                <div class="form">
+                    <label for="first-name">First Name <span class="required">*</span></label>
+                    <input type="text" id="first-name"/>
+                </div>
+
+                <div class="form">
+                    <label for="last-name">Last Name <span class="required">*</span></label>
+                    <input type="text" id="last-name"/>
+                </div>
+
+                <div class="form">
+                    <label for="company">Company/Institution <span class="required">*</span></label>
+                    <input type="text" id="company"/>
+                </div>
+
+                <div class="form">
+                    <label for="address">Address <span class="required">*</span></label>
+                    <textarea id="address" cols="16" rows="5"></textarea>
+                </div>
+
+                <div class="form">
+                    <label for="city">City</label>
+                    <input id="city" type="text"/>
+                </div>
+
+                <div class="form">
+                    <label for="state">State / Province / Region</label>
+                    <select name="" id="state">
+                        <option>Choose a State / Province / Region</option>
+                    </select>
+                </div>
+
+                <div class="form">
+                    <label for="country">Country</label>
+                    <select name="" id="country">
+                        <option>Choose a Country</option>
+                    </select>
+                </div>
+
+                <div class="form">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="text" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/>
+                </div>
+
+                <div class="form">
+                    <label for="phone-number">Phone Number <span class="required">*</span></label>
+                    <input type="text" id="phone-number"/>
+                </div>
+            </div>
+            <div>
+                <a href="">Lunch</a>
+
+                <div class="form">
+                    <label for="meal">Meal Preference</label>
+                    <select name="" id="meal">
+                        <option>Vegetarian</option>
+                        <option>Non Vegetarian</option>
+                        <option>Vegan</option>
+                        <option>Non Vegan</option>
+                    </select>
+                </div>
+
+                <a href="">Payment Details</a>
+
+                <div class="form">
+                    <label>Payment Mode</label>
+                    <div id="payment-mode">
+                        <div>
+                            <input type="checkbox" name="cash" id="cash" value="cash"/>
+                            <label for="cash">Cash</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="cheque" id="cheque" value="cheque"/>
+                            <label for="cheque">Cheque</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="demand" id="demand" value="Demand"/>
+                            <label for="demand">Demand</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <label for="dd">DD/Cheque No.</label>
+                    <input id="dd" type="text"/>
+                </div>
+
+                <div class="form">
+                    <label for="bank">Draw On (Bank Name)</label>
+                    <input id="bank" type="text"/>
+                </div>
+
+                <div class="form">
+                    <label for="payable">Payable at</label>
+                    <input id="payable" type="text"/>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+        </div>
+    </form>
+</div>
+</body>
+</html>
