@@ -71,3 +71,7 @@ td {
     padding: 10px;
     border: 1px solid #ccc;
 }
+.cart-icon {
+    width: 20px;
+    height: 20px;
+}
