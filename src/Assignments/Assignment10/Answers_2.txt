@@ -1,0 +1,6 @@
+Answers
+1) setImmediate executes the callback function as soon as possible after the I/O phase,
+    while setTimeout executes after the given milliseconds.
+2) process.nextTick executes as soon as possible after the current operation and before the  I/O phase,
+    while setImmediate has lower priority and be executed in the next iteration of the event loop.
+3) Node.js does not have window object, but it has global object.
